@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+@font-face {
+    font-family: 'title';
+    src: url(fonts/ballistone/Ballistone.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+:root{
+    --cor0: #FA1EEA;
+    --cor1: #CF97A0;
+    --cor2: #ECECEC;
+    --cor3: #CF8C95;
+    --cor4: #5A5E61;
+
+    --fonte-padrão:  Georgia, 'Times New Roman', Times, serif;
+    --font-title: 'title', sans-serif;
+    --font-destaque: 'Bebas Neue', sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, #FA1EEA, #FFFFFF);
+    background-attachment: fixed;
+    padding: 5px;
+}
+main{
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.24);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    min-height: 150px;
+    padding-top: 40px;
+ 
+ }
+header > h1{
+    font-family: var(--font-title);
+    text-align: center;
+    font-size: 3.3em;
+    margin-bottom: 20px;
+    
+}
+nav{
+    padding: 15px;
+}
+nav > a{
+    color: var(--cor4);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: underline;
+    font-family: var(--font-destaque);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav >a:hover{
+    background-color: var(--cor1);
+    text-decoration: none;
+    color: var(--cor2);
+}
