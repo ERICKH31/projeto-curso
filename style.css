@@ -71,3 +71,17 @@ nav >a:hover{
     text-decoration: none;
     color: var(--cor2);
 }
+section{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    font-family: var(--font-destaque);
+    text-align: center;
+    padding: 10px;
+}
+section > img{
+   
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
