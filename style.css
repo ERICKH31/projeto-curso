@@ -52,7 +52,10 @@ header > h1{
     text-align: center;
     font-size: 3.3em;
     margin-bottom: 20px;
-    
+}
+header > p{
+    font-family: var(--font-destaque);
+    padding: 15px;
 }
 nav{
     padding: 15px;
