@@ -84,3 +84,24 @@ section > img{
     display: block;
     margin: auto;
 }
+div.quadrado{
+    display: inline-block;
+    padding: 15px;
+}
+p.descricao{
+    font-family: var(--font-destaque);
+    padding: 10px;
+}
+img#fotos{
+    border: 3px solid black;
+    border-radius: 10px;
+    border-color: var(--cor4);
+    width: 300px;
+    height: 300px;
+}
+img#fotos:hover{
+    border: 2px solid var(--cor0);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px var(--cor1);
+    transition: transform 0.3s, border 0.5s;
+}
