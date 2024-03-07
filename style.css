@@ -26,7 +26,7 @@
     --font-destaque: 'Bebas Neue', sans-serif;
 }
 body{
-    background-image: linear-gradient(to bottom, #FA1EEA, #FFFFFF);
+    background-image: linear-gradient(to bottom, var(--cor1), #FFFFFF);
     background-attachment: fixed;
     padding: 5px;
 }
@@ -57,6 +57,7 @@ header > p{
     font-family: var(--font-destaque);
     padding: 15px;
 }
+
 nav{
     padding: 15px;
 }
